@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # configSAS
 
 Generate The Config Files To Connect to SAS
