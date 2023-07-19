@@ -34,6 +34,8 @@ Generate The Config Files To Connect to SAS
 
 # Get started
 
+`library(configSAS)`
+
 #== Installation setup ==#
 
 \# install python modules needed to connect SAS
