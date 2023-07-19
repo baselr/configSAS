@@ -31,3 +31,29 @@ Generate The Config Files To Connect to SAS
 `list types;`
 
 `quit;`
+
+# Get started
+
+#== Installation setup ==#
+
+\# install python modules needed to connect SAS
+
+`install_python_module()`
+
+\# create the config files to connect SAS
+
+`create_sascfg_personal_py(local = TRUE, iomhost = 'aws-saspv1.mycompany.com', class_id = 'letter-number')`
+
+#== working with SAS on quarto ==#
+
+\# create the authinfo file
+
+`create_pass(local = TRUE)`
+
+\# generate a quarto document example
+
+`test_SAS()`
+
+\# delete the authinfo file
+
+`delete_pass(local = TRUE)`
