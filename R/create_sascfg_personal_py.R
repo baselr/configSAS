@@ -50,13 +50,13 @@ iomcom = {'java' : 'C:\\\\Program Files (x86)\\\\Common Files\\\\Oracle\\\\Java\
     }
  
     writeLines(
-      "SAS_config_names=['iomcom']
+      paste0 ( "SAS_config_names=['iomcom']
 iomcom = {'java' : '/usr/bin/java',
 'iomhost': '",iomhost,"',
 'iomport': 8591,
 'authkey' : 'IOM_Prod_Grid1',
 'class_id': '",class_id,"'
-}",
+}"),
       file.path( path, ".config", "saspy", "sascfg_personal.py")
     )
 
